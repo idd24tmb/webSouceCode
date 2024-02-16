@@ -1,0 +1,8 @@
+.canvasContainer {
+  position: fixed; /* 或 absolute，根据需要 */
+  top: 0vw;
+  right: 9vw;
+  width: 80vw; /* 控制宽度，这里是视窗宽度的80% */
+  height: 80vh; /* 控制高度，这里是视窗高度的80% */
+  z-index: 100; /* 确保3D内容显示在其他元素上方 */
+}
